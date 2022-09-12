@@ -8,7 +8,12 @@ import { Component } from '@angular/core'
             <hr/>
             <event-thumbnail [event]="event1"></event-thumbnail>
         </div>
-    `
+    `,
+    styles: [`
+        h1 { 
+            color: red; 
+        }
+    `]
 })
 export class EventsListComponent {
     event1 = {
@@ -25,5 +30,4 @@ export class EventsListComponent {
 
         }
     }
-
 }
