@@ -48,4 +48,4 @@ export class EventsThumbnailComponent {
             return 'green bold'
         return ''
     }
-}
+cd ng-fundamentals}
