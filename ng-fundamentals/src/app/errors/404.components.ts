@@ -12,7 +12,7 @@ import { Error404Component } from '.errors/404.component'
       text-align: center; 
     }`]
 })
-export class Error404Component{
+export class Error404Component {
   constructor() {
 
   }
