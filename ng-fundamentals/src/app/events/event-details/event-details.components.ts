@@ -1,6 +1,7 @@
 import { component } from '@angular/core'
 import { EventService  } from '../shared/event.service'
 import { ActivatedRoute } from '@angular/router'
+import { IEvent  } from '../shared/index'
 
 @Component({
     selector: 'event-details',
@@ -11,13 +12,14 @@ import { ActivatedRoute } from '@angular/router'
             padding-right: 20px;
         }
         .event-image {
-            height: 100px;
+            height: 100px;  
         }
     `]
 
-})
+});
 export class EventDetailsComponent {
-    event:any
+    event:IEvent
+    
     constructor:(private eventService:EventService, private route:ActivatedRoute) {
 
     }

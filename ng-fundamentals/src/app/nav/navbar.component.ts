@@ -3,7 +3,7 @@ import { AuthService } from '../user/auth.service'
 
 @Component ({
     selector: 'navbar',
-    templateUrl: './nav-bar.component.html',
+    templateUrl: './navbar.component.html',
     styles: [`
         .nav.navbar-nav {
             font-size: 15px;

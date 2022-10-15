@@ -10,7 +10,7 @@ import { Router } from '@angular/router'
 export class LoginComponent {
 	userName
 	password
-	constructor(private authservice: AuthService, private router: Router) {
+	constructor(private authService: AuthService, private router: Router) {
 
 	}
 
